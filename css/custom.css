@@ -4,9 +4,9 @@
 .homeBtn a.btnOne {
 	background: #288feb;
 }
-.homeArea {
+/*.homeArea {
     background: url("../img/bg.png") repeat;
-}
+}*/
 @media only screen and (max-width: 6000px) and (min-width: 992px){
 	header nav#navbar > ul {
       border-right: none; 
@@ -55,7 +55,7 @@
     background: #ed8100;
 }
 .homeContent span.h2 {
-    font-size: 30px;
+    font-size: 28px;
 }
 .stepContent {
     height: auto;
@@ -64,7 +64,7 @@
     height: 70px;
 }
 .homeArea {
-    background: url('../img/my_bg.jpg') #ffffff;
+    background: #fff;
     border-bottom: 1px solid #eaeaea;
     background-size: 200px auto;
     background-position: 25px 25px;
@@ -74,6 +74,11 @@
 }
 .homeContent span.h2 {
     color: #233141;
+    font-family: 'proxima_novasemibold';
+    line-height: 38px;
+}
+.homeContent .inputWrep {
+    margin-left: 0;
 }
 .homeContent p {
     color: #738191;
@@ -432,9 +437,9 @@ header nav#navbar {
 .v2 header .topInfo li.clientAreaLi span, .v2 header .langIcon, .boardMenu li.active a {
     background: #233141;
 }
-header .headerBottomArea, .v2 .homeArea {
+/*header .headerBottomArea, .v2 .homeArea {
     background: #f0f5fa;
-}
+}*/
 @media only screen and (min-width: 480px){
     a.Btn:nth-child(2) {
         margin-left: 15px;
@@ -561,9 +566,9 @@ header .langIcon {
         padding: 0;
     }
 }
-.homeOverlay {
+/*.homeOverlay {
     background: #015a82;
-}
+}*/
 .v2 .homeContent span.h2 {
     color: #fff;
 }
@@ -604,4 +609,20 @@ header nav#navbar ul > li.current-menu-item > a, header nav#navbar ul > li > a:h
 }
 .singlePost .postContent {
     padding: 15px;
+}
+header .headerBottomArea, .homeArea {
+    border: none;
+}
+.secPdng {
+    padding: 50px 0;
+}
+.sectionTitle {
+    margin-bottom: 30px;
+}
+.newsletterArea {
+    background: #fff;
+}
+.homeImg img{
+    position: relative;
+    top: -20px;
 }
