@@ -626,3 +626,23 @@ header .headerBottomArea, .homeArea {
     position: relative;
     top: -20px;
 }
+
+
+
+
+/* ======== Forms ======== */
+
+#leftPage{
+    min-height: 100vh;
+    padding: 80px;
+}
+#rightPage {
+    min-height: 100vh;
+    padding: 80px 0 80px 50px;
+}
+hr {
+    margin: 30px 0;
+}
+.form-control {
+    height: 40px;
+}
