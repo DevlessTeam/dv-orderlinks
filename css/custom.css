@@ -634,11 +634,19 @@ header .headerBottomArea, .homeArea {
 
 #leftPage{
     min-height: 100vh;
-    padding: 80px;
 }
 #rightPage {
     min-height: 100vh;
-    padding: 80px 0 80px 50px;
+}
+@media (min-width: 1200px){
+    #leftPage{
+        padding: 80px;
+        border-right: 1px solid rgba(0,0,0,0.05);
+    }
+    #rightPage {
+        min-height: 100vh;
+        padding: 80px 20px 80px 40px;
+    }
 }
 hr {
     margin: 30px 0;
