@@ -583,8 +583,8 @@ header .langIcon {
 .v2 .homeContent p {
     color: #fff;
 }
-.v2 header nav#navbar ul > li > a {
-    color: #efefef;
+.v2 header nav#navbar ul > li > a, header nav#navbar ul > li > a {
+    color: #fff;
 }
 header nav#navbar ul > li.current-menu-item > a, header nav#navbar ul > li > a:hover {
     color: #fff;
@@ -670,7 +670,7 @@ header .logo img {
         background-size: auto auto;
 }
 .homeArea {
-    background: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX25880035.jpg');
+    background: url('../images/bg_g.jpg');
         background-position-y: 0%;
     background-size: 330px;
     background-position-y: 150px;

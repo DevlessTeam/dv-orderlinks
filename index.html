@@ -53,8 +53,7 @@
 						</div>
 						<nav id="navbar" class="collapse navbar-collapse">
 							<ul id="nav">
-								<li><a href="#">Demo 1</a>
-								<li><a href="#">Demo 2</a>
+								<li><a class="btn btn-success" href="#howItWorks">How It Works</a>
 							</ul>
 						</nav>
 					</div>
@@ -114,7 +113,7 @@
     <div class="sectionBar"></div>
 
 	    <!-- ======= 1.04 Service Area ====== -->
-    <div class="serviceArea secPdng animated">
+    <div class="serviceArea secPdng animated" id="howItWorks">
     	<div class="container">
     		<div class="row">
     			<div class="col-md-12">
@@ -132,7 +131,7 @@
     					</div>
     					<div class="serviceContent">
     						<span class="h4">Add your Product/Service</span>
-    						<p>Easily configurable with your popular CMS <br >platforms - Wordpress, Joomla & more.</p>
+    						<p>Growing your business with KuzaForms is simple. Begin by adding a product or service on Kuza, add description and price where necessary.</p>
     					</div>
     				</div>
     			</div>
@@ -143,7 +142,7 @@
     					</div>
     					<div class="serviceContent">
     						<span class="h4">Generate & Share KuzaForm</span>
-    						<p>Easily configurable with your popular CMS <br >platforms - Wordpress, Joomla & more.</p>
+    						<p>Create a form to collect order information from your customers. Share the unique link to your form on social media, blogs or website.</p>
     					</div>
     				</div>
     			</div>
@@ -154,7 +153,7 @@
     					</div>
     					<div class="serviceContent">
     						<span class="h4">Receive Orders & Payment</span>
-    						<p>Easily configurable with your popular CMS <br >platforms - Wordpress, Joomla & more.</p>
+    						<p>Receive orders, bookings, and payments for your goods and services through the shared link. You will be notified on every submission.</p>
     					</div>
     				</div>
     			</div>
@@ -163,7 +162,32 @@
     </div>
     <!-- ======= /1.04 Service Area ====== -->
 
+	<div class="sectionBar"></div>
 
+	<!-- ======= 2.05 Page Newsletters Area ====== -->
+    <div class="newsletterArea secPdng animated">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="sectionTitle">
+    					<div class="h2">Be notified when we launch.</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-md-offset-3">
+    				<form action="https://devless.us16.list-manage.com/subscribe/post?u=58250c914fb10529dd31c83c6&amp;id=b1212d2f91" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate newsletter" target="_blank" novalidate>
+    					<div id="mce-responses" class="clear">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>
+    					<div class="inputWrep">
+    						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your email address">
+    						<input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button">
+    					</div>
+    				</form>
+    			</div>
+    		</div>
+    	</div>
+    </div>
 
 </body>
 <!-- ======= /1.09 footer Area ====== -->
@@ -177,24 +201,24 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 <script src="http://bfintal.github.io/Counter-Up/jquery.counterup.min.js"></script>
 <script>
-	$(document).ready(function ($) {
+	// $(document).ready(function ($) {
 
-		if($(window).width() > 768) {
-			Smooch.init({ appToken: 'dwceebhfw3pg84b8a5x4xqucp' });
-			Smooch.sendMessage("Hello there, Edmond here. Ask me anything, or share your feedback. You can also drop me a line at team@devless.io", {
-				role: 'appMaker'
-			}).then(() => {
+	// 	if($(window).width() > 768) {
+	// 		Smooch.init({ appToken: 'dwceebhfw3pg84b8a5x4xqucp' });
+	// 		Smooch.sendMessage("Hello there, Edmond here. Ask me anything, or share your feedback. You can also drop me a line at team@devless.io", {
+	// 			role: 'appMaker'
+	// 		}).then(() => {
 
-			});
+	// 		});
 
-			var scrollCount = 0;
-			$( window ).scroll(function() {
-				scrollCount++;
-				if (scrollCount < 60 && scrollCount > 50) {
-					Smooch.open();
-				}
-			});
-		}
-	});
+	// 		var scrollCount = 0;
+	// 		$( window ).scroll(function() {
+	// 			scrollCount++;
+	// 			if (scrollCount < 60 && scrollCount > 50) {
+	// 				Smooch.open();
+	// 			}
+	// 		});
+	// 	}
+	// });
 </script>
 <script src="js/mixpanel.js"></script><!-- Mixpanel js -->
