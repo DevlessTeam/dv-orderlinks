@@ -76,6 +76,7 @@
     color: #233141;
     font-family: 'proxima_novasemibold';
     line-height: 38px;
+    font-size: 34px;
 }
 .homeContent .inputWrep {
     margin-left: 0;
@@ -613,9 +614,6 @@ header nav#navbar ul > li.current-menu-item > a, header nav#navbar ul > li > a:h
 header .headerBottomArea, .homeArea {
     border: none;
 }
-.secPdng {
-    padding: 50px 0;
-}
 .sectionTitle {
     margin-bottom: 30px;
 }
@@ -656,4 +654,42 @@ hr {
 }
 .add-info {
     background: #f2f2f2;
+}
+header .logo img {
+    height: unset;
+}
+.inputWrep {
+    margin-right: 0;
+}
+.homeOverlay {
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 64%, rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 64%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 64%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 64%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+        background-size: auto auto;
+}
+.homeArea {
+    background: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX25880035.jpg');
+        background-position-y: 0%;
+    background-size: 330px;
+    background-position-y: 150px;
+}
+.homeContent {
+    color: #fff;
+    padding: 100px 0 389px;
+}
+header {
+    background: #fff;
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .homeContent:before {
+        background: unset;
+    }
+}
+.singleService .serviceIcon {
+    height: 185px;
+}
+.serviceContent .h3 {
+    font-size: 20px;
 }
