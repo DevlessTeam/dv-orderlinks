@@ -702,6 +702,21 @@ header {
 .dyn-btn a {
     margin-left: -15px;
     font-size: 20px;
+    padding-right: 0;
+}
+@media (max-width: 480px){
+    .dyn-btn a {
+        margin-left: 0;
+    }
+    .row.sm-gutter {
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+    .row.sm-gutter > [class^="col-"],
+    .row.sm-gutter > [class*=" col-"] {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
 }
 img.img-logo {
     position: absolute;
