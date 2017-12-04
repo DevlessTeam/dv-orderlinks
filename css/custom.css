@@ -718,6 +718,11 @@ header {
         padding-left: 5px;
     }
 }
+@media (max-width: 1200px) {
+    #leftPage {
+        padding-top: 80px;
+    }
+}
 img.img-logo {
     position: absolute;
     top: 15px;
