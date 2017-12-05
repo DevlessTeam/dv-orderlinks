@@ -1,0 +1,98 @@
+@import url("../fonts/webfonts/fonts.css");
+
+body {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 15px;
+    line-height: 20px;
+    color: #738191;
+}
+.fs16{
+	font-size:16px;
+}
+.bold-4{
+	font-weight:700;
+}
+.bg-gray1{
+	background-color:#f2f2f2;
+}
+.pd-tb-mini{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.pd-30{
+	padding:30px;
+}
+.mr-t-10{
+	margin-top:10px;
+}
+.mr-t-20{
+	margin-top:20px;
+}
+.mr-b-20{
+	margin-bottom:20px;
+}
+.mr-tb-20{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.rd-5{
+	border-radius:6px;
+}
+a,.btn{
+	-webkit-transition:all 0.25s ease-out;
+	-moz-transition:all 0.25s ease-out;
+	-ms-transition:all 0.25s ease-out;
+	-o-transition:all 0.25s ease-out;
+	transition:all 0.25s ease-out;
+}
+#leftPage{
+	min-height:100vh;
+}
+#rightPage{
+	min-height:100vh;
+}
+@media (min-width: 1200px){
+	#leftPage{
+		padding:80px;border-right:1px solid rgba(0,0,0,0.05);
+	}
+	#rightPage{
+		min-height:100vh;padding:80px 20px 80px 40px;
+	}
+}
+hr{
+	margin:30px 0;
+}
+.form-control{
+	height:40px;
+}
+.dyn-btn{
+	margin-top:30px;
+}
+.dyn-btn a{
+	margin-left:-15px;font-size:20px;padding-right:0;
+}
+@media (max-width: 480px){
+	.dyn-btn a{
+		margin-left:0;
+	}
+	.row.sm-gutter{
+		margin-right:-5px;margin-left:-5px;
+	}
+	.row.sm-gutter > [class*=" col-"]{
+		padding-right:5px;padding-left:5px;
+	}
+}
+@media (max-width: 1200px){
+	#leftPage{
+		padding-top:80px;
+	}
+}
+img.img-logo{
+	position:absolute;top:15px;height:45px;
+}
+h3{
+	margin:0 0 10px 0;
+	font-family:'proxima_novasemibold';
+	margin:0 0 10px 0;
+	color: #233141;
+}
