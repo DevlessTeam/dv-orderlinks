@@ -708,15 +708,15 @@ header {
     .dyn-btn a {
         margin-left: 0;
     }
-    .row.sm-gutter {
-        margin-right: -5px;
-        margin-left: -5px;
-    }
-    .row.sm-gutter > [class^="col-"],
-    .row.sm-gutter > [class*=" col-"] {
-        padding-right: 5px;
-        padding-left: 5px;
-    }
+}
+.row.sm-gutter {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.row.sm-gutter > [class^="col-"],
+.row.sm-gutter > [class*=" col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
 }
 @media (max-width: 1200px) {
     #leftPage {
