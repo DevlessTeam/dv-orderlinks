@@ -728,3 +728,7 @@ img.img-logo {
     top: 15px;
     height: 45px;
 }
+.prod-info img {
+    width: 140px;
+    margin-top: -5px;
+}
