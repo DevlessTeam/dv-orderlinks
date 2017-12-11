@@ -9,21 +9,32 @@
 	<link rel="stylesheet" href="css/custom.css">
 
 	<style>
+	@media (min-width: 770px) {
 		#leftPage {
-		    padding: 1px;
-		    /*background: #F05155;*/
-		    background: url('images/ren.jpg');
-		    background-size: cover;
+			padding: 1px;
+			min-height: 100vh;
+			background: url('images/ren.jpg');
+			background-size: cover;
 		}
-		#leftPage img{
-			margin-left: auto;
-			margin-right: auto;
-			box-shadow: 0px 0px 21px rgba(0, 0, 0, .5);
+		#leftPage, #rightPage{
+			display: flex;
+			align-items: center;
+			justify-content: center;
 		}
-		#rightPage {
-			padding:0 70px;
+	}
+	@media (max-width: 770px) {
+		#leftPage {
+			min-height: auto;
+			padding-top: 20px;
 		}
-	</style>
+	}
+	#leftPage img{
+		box-shadow: 0px 0px 21px rgba(0, 0, 0, .5);
+	}
+	#rightPage {
+		padding:0 70px;
+	}
+</style>
 </head>
 <body>
 	<div class="container-fluid">
@@ -73,15 +84,5 @@
 		</div>
 	</div>
 	<script src="js/jquery.1.11.3.min.js"></script>
-	<script>
-		$(document).ready(function(){
-			$('#leftPage img').css({
-				'margin-top': ($(window).height() - $('#leftPage img').height()) / 2,
-			})
-			$('.rightContent').css({
-				'margin-top': ($(window).height() - $('.rightContent').height()) / 2,
-			});
-		});
-	</script>
 </body>
 </html>
