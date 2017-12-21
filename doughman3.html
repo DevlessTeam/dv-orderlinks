@@ -60,26 +60,18 @@
 					<h3 class="mr-b-20">Doughman Foods Order Form</h3>
 
 					<div class="row sm-gutter"  v-for="(attendee, index) in attendees" :key="index">
-						<div class="form-group col-xs-5">
-							<label for="" class="control-label">Product</label>
+						<div class="form-group col-xs-6">
+							<label for="" class="control-label">Classic Assorted</label>
 							<select class="form-control" required="required">
 								<option value="">-- Select Doughnut --</option>
-								<option value="">Classic Assorted</option>
-								<option value="">Premium Assorted</option>
-								<option value="">Creamy Deluxe</option>
-								<option value="">Rainbow Storm</option>
+								<option value="">Pack of 5</option>
+								<option value="">Pack of 6</option>
+								<option value="">Pack of 10</option>
+								<option value="">Pack of 12</option>
 							</select>
 						</div>
-						<div class="form-group col-xs-3">
-							<label for="" class="control-label">Pack</label>
-							<select class="form-control" required="required">
-								<option value="">-- Qty --</option>
-								<option value="">5pcs</option>
-								<option value="">10pcs</option>
-								<option value="">12pcs</option>
-							</select>
-						</div>
-						<div class="form-group col-xs-3">
+		
+						<div class="form-group col-xs-5">
 							<label for="" class="control-label">Ghc</label>
 							<input type="text" readonly class="form-control" placeholder="20.30">
 						</div>
@@ -87,6 +79,47 @@
 							<a href="#" class="text-danger"><i class="fa fa-times-circle"></i></a>
 						</div>
 					</div>
+					<div class="row sm-gutter"  v-for="(attendee, index) in attendees" :key="index">
+						<div class="form-group col-xs-6">
+							<label for="" class="control-label">Premium Assorted</label>
+							<select class="form-control" required="required">
+								<option value="">-- Select Doughnut --</option>
+								<option value="">Pack of 5</option>
+								<option value="">Pack of 6</option>
+								<option value="">Pack of 10</option>
+								<option value="">Pack of 12</option>
+							</select>
+						</div>
+		
+						<div class="form-group col-xs-5">
+							<label for="" class="control-label">Ghc</label>
+							<input type="text" readonly class="form-control" placeholder="20.30">
+						</div>
+						<div class="form-group col-xs-1 dyn-btn">
+							<a href="#" class="text-danger"><i class="fa fa-times-circle"></i></a>
+						</div>
+					</div>
+					<div class="row sm-gutter"  v-for="(attendee, index) in attendees" :key="index">
+						<div class="form-group col-xs-6">
+							<label for="" class="control-label">Sugar Coated/Plain</label>
+							<select class="form-control" required="required">
+								<option value="">-- Select Doughnut --</option>
+								<option value="">Pack of 5</option>
+								<option value="">Pack of 6</option>
+								<option value="">Pack of 10</option>
+								<option value="">Pack of 12</option>
+							</select>
+						</div>
+		
+						<div class="form-group col-xs-5">
+							<label for="" class="control-label">Ghc</label>
+							<input type="text" readonly class="form-control" placeholder="20.30">
+						</div>
+						<div class="form-group col-xs-1 dyn-btn">
+							<a href="#" class="text-danger"><i class="fa fa-times-circle"></i></a>
+						</div>
+					</div>
+
 
 					<div class="row">
 						<div class="col-xs-6">
