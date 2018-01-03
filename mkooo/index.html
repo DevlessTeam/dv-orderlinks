@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="../css/custom/style.css">
+	<link rel="stylesheet" href="../css/responsive/responsive.css">
+	<link rel="stylesheet" href="../css/helper.css">
+	<link rel="stylesheet" href="../css/custom.css">
+
+	<title>Mkoo</title>
+
+	<style>
+	@media (min-width: 770px) {
+		#leftPage {
+			padding: 1px;
+			min-height: 100vh;
+			background: url('bg.jpg');
+			background-size: cover;
+		}
+		#leftPage, #rightPage{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.rightContent{
+			width: 100%;
+			flex-shrink: 0;
+		}
+		#rightPage {
+			padding:30px 70px;
+		}
+	}
+	@media (max-width: 770px) {
+		#leftPage {
+			min-height: auto;
+			padding-top: 20px;
+		}
+	}
+	#leftPage img{
+		box-shadow: 0px 0px 21px rgba(0, 0, 0, .5);
+	}
+	#leftPage h1 {
+		color: #fff;
+	}
+
+</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<form action="" method="POST" role="form">
+				<div id="leftPage" class="col-lg-7 pd-tb-mini pd-r-50">
+					<h1>MEST Meals Order System</h1>
+				</div>
+				<div id="rightPage" class="col-lg-5">
+					<div class="rightContent">
+						<!-- <div class="row">
+							<div class="col-md-12">
+								<h4>Monday</h4>
+							</div>
+							<div class="form-group col-xs-6">
+								<select class="form-control" required="required">
+									<option value="">-- Select Lunch --</option>
+									<option value="">Waakye</option>
+									<option value="">Yam & Stew</option>
+								</select>
+							</div>
+							<div class="form-group col-xs-6">
+								<select class="form-control" required="required">
+									<option value="">-- Select Dinner --</option>
+									<option value="">Waakye</option>
+									<option value="">Yam & Stew</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<h4>Tuesday</h4>
+							</div>
+							<div class="form-group col-xs-6">
+								<select class="form-control" required="required">
+									<option value="">-- Select Lunch --</option>
+									<option value="">Waakye</option>
+									<option value="">Yam & Stew</option>
+								</select>
+							</div>
+							<div class="form-group col-xs-6">
+								<select class="form-control" required="required">
+									<option value="">-- Select Dinner --</option>
+									<option value="">Waakye</option>
+									<option value="">Yam & Stew</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<h4>Wednesday</h4>
+							</div>
+							<div class="form-group col-xs-6">
+								<select class="form-control" required="required">
+									<option value="">-- Select Lunch --</option>
+									<option value="">Waakye</option>
+									<option value="">Yam & Stew</option>
+								</select>
+							</div>
+							<div class="form-group col-xs-6">
+								<select class="form-control" required="required">
+									<option value="">-- Select Dinner --</option>
+									<option value="">Waakye</option>
+									<option value="">Yam & Stew</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<h4>Thursday</h4>
+							</div>
+							<div class="form-group col-xs-6">
+								<select class="form-control" required="required">
+									<option value="">-- Select Lunch --</option>
+									<option value="">Waakye</option>
+									<option value="">Yam & Stew</option>
+								</select>
+							</div>
+							<div class="form-group col-xs-6">
+								<select class="form-control" required="required">
+									<option value="">-- Select Dinner --</option>
+									<option value="">Waakye</option>
+									<option value="">Yam & Stew</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<h4>Friday</h4>
+							</div>
+							<div class="form-group col-xs-6">
+								<select class="form-control" required="required">
+									<option value="">-- Select Lunch --</option>
+									<option value="">Waakye</option>
+									<option value="">Yam & Stew</option>
+								</select>
+							</div>
+							<div class="form-group col-xs-6">
+								<select class="form-control" required="required">
+									<option value="">-- Select Dinner --</option>
+									<option value="">Waakye</option>
+									<option value="">Yam & Stew</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<h4>Saturday</h4>
+							</div>
+							<div class="form-group col-xs-6">
+								<select class="form-control" required="required">
+									<option value="">-- Select Lunch --</option>
+									<option value="">Waakye</option>
+									<option value="">Yam & Stew</option>
+								</select>
+							</div>
+							<div class="form-group col-xs-6">
+								<select class="form-control" required="required">
+									<option value="">-- Select Dinner --</option>
+									<option value="">Waakye</option>
+									<option value="">Yam & Stew</option>
+								</select>
+							</div>
+						</div> -->
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1">
+								<h3 class="mr-b-20 text-center">Personal Details</h3>
+								<hr>
+								<div class="form-group">
+									<label for="" class="control-label">First Name</label>
+									<input type="text" class="form-control" id="" placeholder="Enter your First Name">
+								</div>
+								<div class="form-group">
+									<label for="" class="control-label">First Name</label>
+									<input type="text" class="form-control" id="" placeholder="Enter your First Name">
+								</div>
+								<hr>
+								<div class="form-group mr-t-20 text-center">							
+									<button type="submit" class="btn btn-lg btn-primary">Submit</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="../js/jquery.1.11.3.min.js"></script>
+</body>
+</html>
