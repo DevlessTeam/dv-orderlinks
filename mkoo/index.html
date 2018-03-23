@@ -1,50 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>mkoo</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style lang="css" scoped>
-      @media (min-width: 770px) {
-        #leftPage {
-          padding: 1px;
-          min-height: 100vh;
-          background: url('bg.jpg');
-          background-size: cover;
-        }
-        #leftPage, #rightPage{
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-        .rightContent{
-          width: 100%;
-          flex-shrink: 0;
-        }
-        #rightPage {
-          padding:30px 70px;
-        }
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>MKOO</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <style>
+    .kuzaLink {
+      position: absolute;
+      top: cal(100vh - 30px);
+      top: -moz-calc(100vh - 35px);
+      top: -webkit-calc(100vh - 35px);
+    }
+
+    .rightPage,
+    .leftPage {
+      min-height: 300px;
+    }
+
+    .singleWrap {
+      min-height: 100vh;
+    }
+
+    .rightPage {
+      padding: 30px;
+    }
+
+    .leftPage {
+      background-image: url('bg.jpg');
+        background-size: cover;
+    }
+
+    @media (min-width: 992px) {
+      .leftPage,
+      .singleWrap,
+      .rightPage {
+        min-height: 100vh;
       }
-      @media (max-width: 770px) {
-        #leftPage {
-          min-height: auto;
-          padding-top: 20px;
-        }
+      .leftPage {
+        padding: 1px;
       }
-      #leftPage img{
-        box-shadow: 0px 0px 21px rgba(0, 0, 0, .5);
+      .rightContent {
+        max-height: calc(100vh - 50px);
+        max-height: -moz-calc(100vh - 50px);
+        max-height: -webkit-calc(100vh - 50px);
+        overflow: scroll;
       }
-      #leftPage h1 {
-        color: #fff;
+    }
+
+    @media (min-width: 1200px) {
+      .rightPage {
+        padding: 30px 20px 30px 40px;
       }
+      .leftPage {
+        padding: 80px;
+        border-right: 1px solid rgba(0, 0, 0, 0.05);
+        /* background-image: url('/bg.jpg');
+        background-size: cover; */
+      }
+      .rightContent {
+        padding: 30px 50px;
+      }
+    }
+
+    .pd-tb-mini {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .leftPage {
+      background-size: cover;
+    }
+
+    .mr-t-20 {
+      margin-top: 20px;
+    }
+
+    .mr-t-30 {
+      margin-top: 30px;
+    }
+
+    .mr-auto {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .mr-0 {
+      margin: 0px;
+    }
+
+    .mr-5 {
+      margin: 5px;
+    }
+
+    .mr-10 {
+      margin: 10px;
+    }
+
+    .mr-20 {
+      margin: 20px;
+    }
+
+    .mr-30 {
+      margin: 30px;
+    }
+
+    .pd-0 {
+      padding: 0;
+    }
+
+    .pd-10 {
+      padding: 10px;
+    }
+
+    .pd-20 {
+      padding: 20px;
+    }
+
+    .pd-30 {
+      padding: 30px;
+    }
+
+    .leftPage,
+    .singleWrap,
+    .rightPage {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .payLogo img {
+      border-radius: 3px;
+    }
+
+    .payCont {
+      border: 1px solid #aaa;
+      padding: 30px;
+      border-radius: 5px;
+      background: #fff;
+    }
+
+    .row.sm-gutter {
+      margin-right: -5px;
+      margin-left: -5px;
+    }
+
+    .row.sm-gutter>[class^="col-"],
+    .row.sm-gutter>[class*=" col-"] {
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+
+    .text-white {
+      color: #fff;
+    }
+
+    .w-100 {
+      width: 100% !important;
+    }
+
+    hr {
+      margin: 30px 0;
+    }
+
   </style>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="dist/build.js"></script>
-  </body>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="dist/build.js"></script>
+</body>
+
 </html>
